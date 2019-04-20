@@ -1,0 +1,48 @@
+{
+  "name": "app_gk",
+  "version": "1.0.0",
+  "description": "Thi Giua Ki 1660151",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haimap/nodeapp_GK.git"
+  },
+  "author": "Nguyen Thanh Hai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haimap/nodeapp_GK/issues"
+  },
+  "homepage": "https://github.com/haimap/nodeapp_GK#readme",
+
+  "engines": {
+    "node": "~8.9.4"
+  },
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.6",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.3.1",
+    "mongodb": "^3.0.7",
+    "node-gyp": "^3.6.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.4.1",
+    "pug": "^2.0.0-rc.3",
+    "request": "^2.83.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
